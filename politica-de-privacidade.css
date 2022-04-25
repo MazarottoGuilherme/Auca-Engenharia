@@ -1,0 +1,248 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.menu-logo{
+	width: 250px;
+}
+
+.texto-menu{
+	font-size: 15px;
+	color: black;
+	padding: 0 15px!important;
+}
+
+.texto-menu:hover{
+	color: white!important;
+}
+
+.raio-da-borda:hover{
+	background-color: #607a3e;
+}
+
+.raio-da-borda{
+	border-radius: 5px;
+}
+
+.menu-superior{
+	padding: 10px 20px;
+	border-bottom: solid #607a3e 2px;
+	box-shadow: 1.5px 1.5px 1.5px 1.5px rgba(0, 0, 0, 0.3);
+}
+
+.flutuante{
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+
+}
+
+.wts-btn{
+	box-shadow: 0 0 8px rgba(0, 0, 0, .5);
+	right: 0;
+	bottom: 0;
+	width: 75px;
+	height: 75px;
+	position: absolute;
+	border-radius: 25%;
+	background-color: whitesmoke;
+	cursor: pointer;
+}
+
+.wts-btn:hover{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	background-color: white;
+	width: 75px;
+	height: 75px;
+}
+
+.banner-topo{
+	background-size: cover;
+}
+
+.banner-topo-imagem{
+	width: 100%;
+	height: 500px;
+}
+
+.banner-topo-texto{
+	font-size: 30px;
+	top: 250px;
+	left: 25%;
+	position: absolute;
+	color: white;
+	text-align: left;
+}
+
+.imagem-globo{
+	max-width: 100%;
+}
+
+.icone-lista{
+	margin-right: 20px;
+	color: #607a3e;
+	font-size: 35px;
+}
+
+.lista{
+	margin-top: 25px;
+}
+
+.botao-linha{
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 20px;
+	background-color: #607a3e;
+	padding: 5px;
+	max-width: 300px;
+}
+
+.titulo-lista{
+	font-size: 25px;
+	font-weight: 400;
+}
+
+.botao-carrossel{
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 19px;
+	background-color: #607a3e;
+	padding: 5px;
+	width: 300px;
+}
+
+.icone-um{
+	color: #607a3e;
+	font-size: 3rem;
+}
+
+.icone-dois{
+	color: #607a3e;
+	font-size: 3rem;
+}
+
+.sem-borda{
+	border: none!important;
+}
+
+.texto-tabela{
+	font-weight: 300;
+	font-size: 25px;
+}
+
+.depoimentos{
+	background: url("assets/depoimentos-parallax.jpg");
+	min-height: 350px;
+
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.texto-coluna-parallax{
+	font-size: 20px;
+	color: white;
+}
+
+.titulo-coluna-parallax{
+	color: white;
+	font-weight: 700;
+}
+
+.inovador{
+	color: #607a3e;
+}
+
+.titulo-inovador{
+	font-weight: 700;
+}
+
+.paragrafo-inovador{
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.icone-coluna-inovador{
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: #607a3e;
+	font-size: 35px;
+}
+
+.titulo-lista-inovador{
+	margin-bottom: 0;
+	margin-left: 20px;
+	font-weight: 400;
+	color: #212529;
+}
+
+.texto-lista-inovador{
+	font-size: 15px;
+	margin-left: 20px;
+}
+
+.parallax-dois{
+	display: flex;
+	align-items: center;
+	background: url("assets/parallax-dois.jpg");
+	min-height: 350px;
+
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.parallax-dois-titulo{
+	color: white;
+	font-size: 1.7rem;
+}
+
+.parallax-dois-texto{
+	color: white;
+	font-size: 1.5rem;
+}
+
+footer{
+	background-color: #2f2f2f;
+}
+
+.informacoes-contato{
+	border-left: 3px solid #fff;
+	padding: 10px;
+}
+
+.titulo-contato{
+	color: white;
+	font-size: 20px;
+}
+
+.whats-link{
+	color: white;
+	font-size: 30px;
+	background-color: #607a3e;
+	padding: 10px;
+	text-decoration: none;
+}
+
+.email-contato{
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.horario-contato{
+	color: white;
+	font-size: 20px;
+}
+
+.direitos-reservados{
+	color: white;
+}
